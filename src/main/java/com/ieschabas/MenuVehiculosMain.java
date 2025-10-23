@@ -32,7 +32,6 @@ public class MenuVehiculosMain {
         /**
          * Creamos el objeto para la clase MenuVehiculos
          */
-
         MenuVehiculos menu = new MenuVehiculos(seleccion);
 
         /**
