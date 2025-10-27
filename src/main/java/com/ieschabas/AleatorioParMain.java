@@ -15,7 +15,7 @@ public class AleatorioParMain {
          * Establecemos el Scanner para que nos detecte los datos del usuario
          * Establecemos Random para que el sistema genere un número aleatorio
          */
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         Random rng = new Random();
         int limite = -1;
         /**
@@ -25,15 +25,15 @@ public class AleatorioParMain {
          */
         while (limite <= 0) {
             System.out.print("Introduce un número límite positivo: ");
-            if (sc.hasNextInt()) {
-                limite = sc.nextInt();
+            if (scanner.hasNextInt()) {
+                limite = scanner.nextInt();
                 if (limite <= 0) {
                     System.out.println("El límite no puede ser un número negativo");
                 }
 
             } else {
                 System.out.println("Por favor, introduce un número válido.");
-                sc.next(); // limpiar entrada inválida
+                scanner.next(); // limpiar entrada inválida
             }
         }
 
