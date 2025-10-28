@@ -14,7 +14,10 @@ import java.util.Random;
         public int sumaDosAleatorios(Random rng) {
             int a = rng.nextInt(1001);
             int b = rng.nextInt(1001);
-            return a + b;
+            int suma = a + b;
+            System.out.println("Suma entre " + a + " + " + b + " es igual a: " + suma);
+
+            return suma;
         }
 
         /**

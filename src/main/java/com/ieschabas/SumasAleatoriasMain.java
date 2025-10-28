@@ -42,9 +42,10 @@ import java.util.Scanner;
             /**
              * Mostramos los resultados de la operación en pantalla
              */
-            System.out.println("Resultados de las sumas aleatorias:");
+            /**System.out.println("Resultados de las sumas aleatorias:");
             for (int i = 0; i < sumas.length; i++) {
-                System.out.println("Suma " + (i + 1) + ": " + sumas[i]);
-            }
+                System.out.println("Suma de " + (i + 1) + ": "+
+                );
+            }*/
         }
     }
